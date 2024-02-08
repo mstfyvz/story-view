@@ -10,9 +10,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/mstfyvz/story-view")
-        }
+        maven(url = "https://maven.pkg.github.com/mstfyvz/story-view")
     }
 }
 
