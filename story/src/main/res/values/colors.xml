@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#AAAAAAAA</color>
+    <color name="instagramRoyalBlue">#405DE6</color>
+    <color name="instagramBlue">#5B51D8</color>
+    <color name="instagramPurple">#833AB4</color>
+    <color name="instagramDarkPink">#C13584</color>
+    <color name="instagramPurpleRed">#E1306C</color>
+    <color name="instagramRed">#FD1D1D</color>
+    <color name="instagramDarkOrange">#F56040</color>
+    <color name="instagramOrange">#777737</color>
+    <color name="instagramYellow">#FCAF45</color>
+    <color name="instagramLightYellow">#FFDC80</color>
+</resources>
