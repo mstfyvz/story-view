@@ -51,36 +51,12 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.yavuzmobile.story"
-            artifactId = "story-view"
-            version = "1.0.0"
+            groupId = "com.yavuzmobile"
+            artifactId = "story"
+            version = "0.9-alpha"
 
             afterEvaluate {
                 from(components["release"])
-            }
-
-            pom {
-                name = "Android Story View Library"
-                description = "A library for displaying stories in Android apps."
-                url = "https://github.com/mstfyvz/story-view"
-                licenses {
-                    license {
-                        name = "Apache-2.0"
-                        url = "https://www.apache.org/licenses/LICENSE-2.0.txt"
-                    }
-                }
-                developers {
-                    developer {
-                        id = "yavuz-mobile"
-                        name = "Yavuz Mobile"
-                        email = "developer.mustafayavuz@gmail.com"
-                    }
-                }
-                scm {
-                    connection = "scm:git:https://github.com/mstfyvz/story-view.git"
-                    developerConnection = "scm:git:https://github.com/mstfyvz/story-view.git"
-                    url = "https://github.com/ymstfyvz/story-view"
-                }
             }
         }
     }
